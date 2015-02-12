@@ -23,6 +23,10 @@ gem 'spring',      group: :development
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+group :development do
+  gem 'capistrano', '~> 2.15.5'
+  gem 'rvm-capistrano', require: false
+end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
